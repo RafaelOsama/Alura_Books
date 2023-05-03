@@ -102,4 +102,17 @@
     .container-imagem-transparente {
         display: none;
     }
+    .cabecalho-menu-hamburguer {
+        display: none;
+    }
+
+    .opcoes-botao:checked~.lista-menu {
+        display: block;
+        width: auto;
+    }
+    
+    .opcoes-botao {
+        display: none;
+    }
+
 }
